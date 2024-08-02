@@ -107,12 +107,12 @@ void KittiPublishersNode::convert_pcl_to_pointcloud2(sensor_msgs::msg::PointClou
 
 void KittiPublishersNode::init_file_path()
 {
-    path_point_cloud_ = "data/2011_09_26/2011_09_26_drive_0015_sync/velodyne_points/data/";
-    path_image_gray_left_ = "data/2011_09_26/2011_09_26_drive_0015_sync/image_00/data/";
-    path_image_gray_right_ = "data/2011_09_26/2011_09_26_drive_0015_sync/image_01/data/";
-    path_image_color_left_ = "data/2011_09_26/2011_09_26_drive_0015_sync/image_02/data/";
-    path_image_color_right_ = "data/2011_09_26/2011_09_26_drive_0015_sync/image_03/data/";
-    path_oxts_ = "data/2011_09_26/2011_09_26_drive_0015_sync/oxts/data/";
+    path_point_cloud_ = "data/2011_09_26/2011_09_26_drive_0001_sync/velodyne_points/data/";
+    path_image_gray_left_ = "data/2011_09_26/2011_09_26_drive_0001_sync/image_00/data/";
+    path_image_gray_right_ = "data/2011_09_26/2011_09_26_drive_0001_sync/image_01/data/";
+    path_image_color_left_ = "data/2011_09_26/2011_09_26_drive_0001_sync/image_02/data/";
+    path_image_color_right_ = "data/2011_09_26/2011_09_26_drive_0001_sync/image_03/data/";
+    path_oxts_ = "data/2011_09_26/2011_09_26_drive_0001_sync/oxts/data/";
 }
 
 std::string KittiPublishersNode::get_path(KittiPublishersNode::PublisherType publisher_type)
